@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/Images/person.png";
+import Resume from "../../assets/docs/Casey Murphy- Resume.pdf";
 
 function IntroSection() {
   return (
@@ -28,7 +29,7 @@ function IntroSection() {
             </button>
           </a>
   
-          <a href="docs/Casey Murphy-Resume.pdf" target="_blank">
+          <a href={Resume} target="_blank" rel="noreferrer">
            <button id="outlineBtn" class="btn btn-outline-primary">
               Resume
             </button>
