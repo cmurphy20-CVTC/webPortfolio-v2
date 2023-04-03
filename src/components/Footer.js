@@ -11,9 +11,9 @@ function Footer() {
 
         <div class="footerIcons container-fluid">
       
-          <a href="https://github.com/cmurphy20-CVTC" target="_blank"><i class="social-icon fab fa-github fa-4x"></i></a>
-          <a href="https://www.linkedin.com/in/casey-murphy-494b49114/" target="_blank"><i class="social-icon fab fa-linkedin fa-4x"></i></a>
-          <a href="mailto:cmurphymwdf@gmail.com" target="_blank"><i class="social-icon fas fa-envelope fa-4x"></i></a>
+          <a href="https://github.com/cmurphy20-CVTC" target="_blank" rel="noreferrer"><i class="social-icon fab fa-github fa-4x"></i></a>
+          <a href="https://www.linkedin.com/in/casey-murphy-494b49114/" target="_blank" rel="noreferrer"><i class="social-icon fab fa-linkedin fa-4x"></i></a>
+          <a href="mailto:cmurphymwdf@gmail.com" target="_blank" rel="noreferrer"><i class="social-icon fas fa-envelope fa-4x"></i></a>
          
           <p>Made by me © 2022</p>
         </div>
