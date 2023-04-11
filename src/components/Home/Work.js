@@ -62,6 +62,12 @@ function Work() {
               </button>
             </a>
 
+            <a href="https://www.youtube.com/watch?v=XM6DNkFl9-E" target="_blank" rel="noreferrer">
+                <button id="solidBtn" class="btn">
+                  Video Demo
+                </button>
+              </a>
+
           </div>
         </div>
 
@@ -145,12 +151,6 @@ function Work() {
               <a href="https://www.pivotaltracker.com/n/projects/2538974" target="_blank" rel="noreferrer">
                 <button id="solidBtn" class="btn">
                   Documentation
-                </button>
-              </a>
-
-              <a href="https://www.youtube.com/watch?v=XM6DNkFl9-E" target="_blank" rel="noreferrer">
-                <button id="solidBtn" class="btn">
-                  Video Demo
                 </button>
               </a>
 
