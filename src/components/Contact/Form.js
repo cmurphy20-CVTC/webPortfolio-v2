@@ -3,7 +3,6 @@ import React from "react";
 function Form() {
   return(
     <form
-
       name="contact" 
       method="post" 
       data-netlify="true" 
@@ -70,8 +69,6 @@ function Form() {
       </div>
 
     </div>
-    
-    <div class="row justify-content-center mx-auto my-4" data-netlify-recaptcha="true"></div>
 
     <div class="row">
 
