@@ -4,15 +4,17 @@ function Form() {
   return(
     <form
 
-    name="contact"
+      name="contact" 
+      method="post" 
+      data-netlify="true" 
+      onSubmit="submit"
+      data-netlify-honeypot="bot-field">
+    
+      <input type="hidden" name="form-name" value="contact" />
 
-    action="success.html"
-
-    method="POST"
-
-    data-netlify-recaptcha="true"
-
-    data-netlify="true">
+      <div hidden>
+        <input name="bot-field" />
+      </div>
 
     <div class="row">
 

@@ -1,6 +1,6 @@
 import React from "react";
 import LifeNoteImg from "../../assets/Images/lifeNote.PNG";
-import SmallFryimg from "../../assets/Images/sFT.PNG";
+import SmallFryimg from "../../assets/Images/sFT-R.PNG";
 import CursorImg from "../../assets/Images/cursorImg.PNG";
 
 
@@ -102,7 +102,7 @@ function Work() {
 
           <div class="projectBtns">
 
-            <a href="https://silver-dusk-7d7243.netlify.app" target="_blank" rel="noreferrer">
+            <a href="https://splendid-panda-1e2617.netlify.app/" target="_blank" rel="noreferrer">
               <button id="solidBtn" class="btn">
                 Visit
               </button>
