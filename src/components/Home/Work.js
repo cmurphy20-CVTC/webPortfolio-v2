@@ -11,14 +11,14 @@ function Work() {
           <h1>My Recent Work</h1>
 
           <h4>
-            Here are a few past projects I've worked on. Want to see more?{" "}
+            Here are a few past projects I've worked on. Want to see more?
             <a
               id="titleA"
-              href="mailto:cmurphymwdf@gmail.com"
+              href="https://github.com/cmurphy20-CVTC"
               target="_blank"
               rel="noreferrer"
             >
-              Email me.
+              GitHub
             </a>
           </h4>
         </div>

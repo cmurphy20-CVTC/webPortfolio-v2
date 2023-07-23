@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../../assets/Images/person.png";
 import Resume from "../../assets/docs/Casey Murphy- Resume.pdf";
+import Headshot from "../../assets/Images/headshot.png"
 
 function IntroSection() {
   return (
@@ -10,15 +10,15 @@ function IntroSection() {
       <div class="col introDiv">
 
         <div class="row logo justify-content-center">
-          <img id="logoPerson" src={logo} alt="Logo"></img>
+          <img id="logoPerson" src={Headshot} alt="Logo"></img>
         </div>
 
         <div class="row justify-content-center">
-          <h1>Full Stack Web Developer</h1>
+          <h1>Web Developer || Problem Solver</h1>
         </div>
 
         <div class="row justify-content-center">
-          <h3>I design and create web apps.</h3>
+          <h3>I design and create applicaitons that make the client's life easier using Javascript, React, Node.js, and Express</h3>
         </div>
 
         <div class="row introBtns justify-content-center">
@@ -42,8 +42,7 @@ function IntroSection() {
         <div class="col-lg-12 col-md-12 col-sm-12">
           <h1>Hello, I'm Casey.</h1>
 
-          <p id="introContentP">I am a Full Stack Web Developer and a graduate of Chippewa Valley Technical College. Currently looking to 
-            transition my career into web development. I'm quietly confident, naturally curious, and perpetually working on improving my 
+          <p id="introContentP">I am a web developer with a passion for learning how to solve problems because I'm helpful to a fault. I'm quietly confident, naturally curious, and perpetually working on improving my 
             skills one problem at a time.
           </p>
         </div>
