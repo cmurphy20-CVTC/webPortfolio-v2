@@ -23,7 +23,7 @@ function IntroSection() {
 
         <div class="row introBtns justify-content-center">
 
-          <a href="mailto:cmurphymwdf@gmail.com" target="_blank" rel="noreferrer">
+          <a href="/contact" target="_blank" rel="noreferrer">
             <button id="solidBtn" class="btn btn-primary">
               Email
             </button>
