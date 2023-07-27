@@ -42,8 +42,8 @@ function IntroSection() {
         <div class="col-lg-12 col-md-12 col-sm-12">
           <h1>Hello, I'm Casey.</h1>
 
-          <p id="introContentP">I am a web developer with a passion for learning how to solve problems because I'm helpful to a fault. I'm quietly confident, naturally curious, and perpetually working on improving my 
-            skills one problem at a time.
+          <p id="introContentP">I am a web developer with a passion for learning how to solve problems because I'm helpful to a fault. I'm naturally curious and perpetually working on improving my 
+            skills one problem at a time. 
           </p>
         </div>
       </div>       

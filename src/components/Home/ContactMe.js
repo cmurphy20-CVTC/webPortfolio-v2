@@ -3,7 +3,7 @@ import emailjs from "@emailjs/browser";
 import dotenv from "react-dotenv";
 
 export const ContactMe = () => {
-  const env = dotenv.config().parsed;
+  
   const form = useRef();
 
   const [successText, setSuccessText] = useState("");
