@@ -22,6 +22,7 @@ export const Form = () => {
           console.log(result.text);
 
           setSuccessText( "Thanks for taking the time to reach out!" );
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);

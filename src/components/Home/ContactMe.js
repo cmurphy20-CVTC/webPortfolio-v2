@@ -5,6 +5,7 @@ export const ContactMe = () => {
   const form = useRef();
 
   const [successText, setSuccessText] = useState("");
+  
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,6 +22,7 @@ export const ContactMe = () => {
           console.log(result.text);
 
           setSuccessText( "Thanks for taking the time to reach out!" );
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -52,7 +54,7 @@ export const ContactMe = () => {
               type="email"
               className="form-control"
               name="user_email"
-            />
+            ></input>
           </div>
         </div>
 
@@ -66,9 +68,9 @@ export const ContactMe = () => {
             />
           </div>
         </div>
-        <div className="row">
+        
         <h3 className="formText">{successText}</h3>
-      </div>
+      
         <button
           id="outlineBtn"
           type="submit"
