@@ -1,27 +1,28 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import dotenv from "react-dotenv";
 
 export const ContactMe = () => {
+  const env = dotenv.config().parsed;
   const form = useRef();
 
   const [successText, setSuccessText] = useState("");
-  
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_fi2dwlf",
-        "contact_form",
+        process.env.SERVICE_ID,
+        process.env.FORM_TEMPLATE,
         form.current,
-        "Va15oI0gJNuRIR28x"
+        process.env.PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
 
-          setSuccessText( "Thanks for taking the time to reach out!" );
+          setSuccessText("Thanks for taking the time to reach out!");
           form.current.reset();
         },
         (error) => {
@@ -68,9 +69,9 @@ export const ContactMe = () => {
             />
           </div>
         </div>
-        
+
         <h3 className="formText">{successText}</h3>
-      
+
         <button
           id="outlineBtn"
           type="submit"
@@ -80,7 +81,6 @@ export const ContactMe = () => {
           Send
         </button>
       </form>
-      
     </section>
   );
 };
