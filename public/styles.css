@@ -197,34 +197,6 @@ html {
   margin: 3%;
 }
 
-/* Technologies */
-
-#techTitle {
-  color: #1a1c22;
-  font-size: 60px;
-  margin: 5%;
-  text-align: center;
-}
-
-.techDiv {
-  margin-bottom: 8%;
-  height: 125px;
-  width: 125px;
-}
-
-.techItem {
-  box-shadow:  5px 5px 5px 5px #1a2980;
-  padding: 20px;
-}
-
-.techItem:hover {
-  box-shadow:  5px 5px 5px 5px #26D0CE; 
-}
-
-.techImg {
-  height: 130px;
-  width: 130px;
-}
 
 /* Footer */
 
@@ -248,6 +220,22 @@ html {
 
 /* Contact Form */
 
+.contact-form {
+  background-color: rgba(254,251,234, .25);
+  border: 3px solid rgba(26,28, 34, .75) ;
+  box-shadow: 8px 8px 2px 1px rgba(0, 0, 0, .75);
+  height: 75vh;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 60%;
+}
+
+.form-group > input{
+  margin: 0 auto;
+  width: 75%;
+}
+
 .navContact {
   border-bottom: #1a1c22 solid .75px;
 }
@@ -264,73 +252,38 @@ html {
 }
 
 #contactTitle {
-  font-size: 25px;
+  color: #1a1c22;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
 }
 
 .contactLabel {
+  color: #1a1c22;
+  font-size: 100px;
   text-align: left;
-  width: 60%;
+  width: 75%;
 }
 
 #formInput {
-  height: 7vh;
+
+  height: 5vh;
+  text-align: left;
 }
 
 #formMessage {
-  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  width: 75%;
 }
 
 .form-control { 
   margin-bottom: 5%;
 }
 
-/* Success Page */
-
-.success  {
-  color: #fefefe;
-  background: linear-gradient(90deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 35%);
-  height: 100%;
-  margin: 0 auto;
-  width: 100%;
-  
-  
+.formText {
+  color: #1a1c22;
+  text-align: center;
 }
-
-.successTitle {
-  color: #fefefe;
-  margin: 5%;
-  margin-top: 5%;
-}
-
-#successContent {
-  color: #fefefe;
-  margin-bottom: 3%;
-}
-
-#successBtn {
-  background-color: #1a2980;
-  border-color: #1a2980;
-  font-size: 25px;
-  width: 5%;
-}
-
-#successBtn:hover {
-  background-color: #fefefe;
-  border-color: #fefefe;
- }
-
-
-#successBtn > a {
- color: #fefefe;
-}
-
-#successBtn > a:hover {
-  color: #1a2980;
-  text-decoration: none;
- }
-
 
 
 

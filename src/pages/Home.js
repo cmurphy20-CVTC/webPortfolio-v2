@@ -1,7 +1,7 @@
 import React from "react";
-import IntroSection from "../components/Home/IntroSection";
+import IntroSection from "../components/Home/IntroSection.js";
 import Work from "../components/Home/Work";
-import Technologies from "../components/Home/Technologies";
+import ContactMe from "../components/Home/ContactMe";
 
 function Home() {
   return(
@@ -12,7 +12,7 @@ function Home() {
 
         <Work />
 
-        <Technologies />
+        <ContactMe/>
       
      
     </div>
