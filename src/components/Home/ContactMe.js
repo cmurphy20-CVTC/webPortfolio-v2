@@ -20,7 +20,7 @@ export const ContactMe = () => {
         (result) => {
           console.log(result.text);
 
-          setSuccessText( "Thank you for the email!" );
+          setSuccessText( "Thanks for taking the time to reach out!" );
         },
         (error) => {
           console.log(error.text);
@@ -33,7 +33,6 @@ export const ContactMe = () => {
       <form className="contact-form" ref={form} onSubmit={sendEmail}>
         <h1 id="contactTitle">Contact Me</h1>
 
-        <h3 className="formText">Thanks for taking the time to reach out.</h3>
         <div class="row">
           <div className="form-group col-lg mx-auto">
             <label class="col-form-label contactLabel">Name:</label>

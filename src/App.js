@@ -1,15 +1,11 @@
 import React from "react";
-import { useRef } from "react";
 import BrandImg from "./assets/Images/cm_light.png";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import { Link, Route, Routes } from "react-router-dom";
 
-
 function App() {
-  const contact = useRef(null);
-  
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light ">
@@ -35,20 +31,19 @@ function App() {
                 Home
               </Link>
             </li>
-            <li onClick={() => contact.current.scrollIntoView({ behavior: "smooth"})}
-                id="navBtnA"
-                class="nav-link">
-              
+            <li class="nav-item">
+              <Link id="navBtnA" class="nav-link" to="/contact">
                 Contact
-              
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
 
-      
-       <Home  />
-      
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
 
       <Footer />
     </>

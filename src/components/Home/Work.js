@@ -11,7 +11,8 @@ function Work() {
           <h1>My Recent Work</h1>
 
           <h4>
-            Here are a few past projects I've worked on. Want to see more?
+            Here are a few past projects I've worked on. Want to see more? &nbsp;
+            
             <a
               id="titleA"
               href="https://github.com/cmurphy20-CVTC"
