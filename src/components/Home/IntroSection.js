@@ -18,7 +18,7 @@ function IntroSection() {
         </div>
 
         <div class="row justify-content-center">
-          <h3>I design and create applicaitons that make the client's life easier using Javascript, React, Node.js, and Express</h3>
+          <h3>I design and create applications that make the client's life easier using JavaScript, React, Node.js, and Express</h3>
         </div>
 
         <div class="row introBtns justify-content-center">
