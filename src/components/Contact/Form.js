@@ -67,9 +67,9 @@ export const Form = () => {
             />
           </div>
         </div>
-        <div className="row">
+        
         <h3 className="formText">{successText}</h3>
-      </div>
+      
         <button
           id="outlineBtn"
           type="submit"
