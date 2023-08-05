@@ -15,7 +15,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/casey-murphy-494b49114/" target="_blank" rel="noreferrer"><i class="social-icon fab fa-linkedin fa-4x"></i></a>
           <a href="mailto:cmurphymwdf@gmail.com" target="_blank" rel="noreferrer"><i class="social-icon fas fa-envelope fa-4x"></i></a>
          
-          <p>Made by me © 2022</p>
+          <p className="footerP">Made by me © 2022</p>
         </div>
 
       </footer>

@@ -44,6 +44,11 @@ html {
   text-decoration: none;
 }
 
+.nav-icon {
+  color: #26D0CE;
+  
+}
+
 #navBtn {
   color: #26D0CE;
   border-color: #26D0CE;
@@ -139,7 +144,7 @@ html {
   margin-top: 2.5%;
   padding: 5%;
   text-align: center;
-  width: 100vw;
+  width: 75vw;
 }
 
 #introContentP {
@@ -200,13 +205,16 @@ html {
 }
 
 .projectEven {
+  background-color: rgb(244, 246, 247);
   margin: 3%;
+  padding-top: 3%;
 }
 
 
 /* Footer */
 
 .footer {
+  background-color: rgba(38,208,206,1) ;
   text-align: center;
 }
 
@@ -216,7 +224,7 @@ html {
 }
 
 .social-icon {
-  color: #26D0CE;
+  color: #fefefe;
   padding: 2%;
 }
 
@@ -224,6 +232,9 @@ html {
   color: #1a2980;
 }
 
+.footerP {
+  color: #fefefe;
+}
 /* Contact Form */
 
 .contact-form {

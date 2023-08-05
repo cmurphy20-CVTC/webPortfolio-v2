@@ -33,9 +33,7 @@ function Work() {
               first started making this app, our first child was born and life
               became a little more chaotic. I wanted to challenge myself and
               build an app to help me and others remember the various people or
-              things we encounter day to day. I was doing a Udemy course on web
-              development that taught basic CRUD operations for a Node.js site
-              using MongoDB. From there I built my own app that allows users to
+              things we encounter day to day. This app allows users to
               create an account and create notes about different topics. For
               example, I want to learn more about investing, so with LifeNote I
               can create a note about the difference between stocks and bonds.
@@ -107,7 +105,7 @@ function Work() {
           </div>
         </div>
 
-        <div class="row projectOdd justify-content-center">
+        <div class="row projectEven justify-content-center">
           <div class="col-md-5 col-11">
             <h2>NPI Registry</h2>
 
@@ -172,7 +170,7 @@ function Work() {
           </div>
         </div>
 
-        <div class="row projectEven justify-content-center">
+        <div class="row projectOdd justify-content-center">
           <div class="col-md-5 col-11 order-12 projectImgDiv">
             <img
               id="projectImg"
@@ -198,7 +196,7 @@ function Work() {
             </p>
 
             <p>
-              <strong>Bootstrap | Javascript | jQuery | Netlify</strong>
+              <strong>React | Bootstrap | Javascript | jQuery | Netlify</strong>
             </p>
 
             <div class="projectBtns">

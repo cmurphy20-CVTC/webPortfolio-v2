@@ -28,13 +28,14 @@ function App() {
           <ul class="navbar-nav nav-pills nav fill ml-auto">
             <li class="nav-item active">
               <Link id="navBtnA" class="nav-link" to="/">
-                Home
+              Home
               </Link>
             </li>
             <li class="nav-item">
               <Link id="navBtnA" class="nav-link" to="/contact">
                 Contact
               </Link>
+              
             </li>
           </ul>
         </div>
@@ -46,6 +47,9 @@ function App() {
       </Routes>
 
       <Footer />
+      
+
+      
     </>
   );
 }
