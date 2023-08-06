@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import ErrorBoundary from "../errorBoundary";
 
 
 export const ContactMe = () => {
@@ -85,4 +86,12 @@ export const ContactMe = () => {
   );
 };
 
-export default ContactMe;
+function ContactMeErrorBoundary(props) {
+  return (
+    <ErrorBoundary>
+      <ContactMe {...props} />
+    </ErrorBoundary>
+  );
+}
+
+export default ContactMeErrorBoundary;
