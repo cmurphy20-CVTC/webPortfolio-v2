@@ -130,7 +130,7 @@ function Work() {
 
             <div class="projectBtns">
               <a
-                href="https://npiregistryfrontend-production.up.railway.app/"
+                href="https://npiregistry.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -201,7 +201,7 @@ function Work() {
 
             <div class="projectBtns">
               <a
-                href="https://splendid-panda-1e2617.netlify.app/"
+                href="https://smallfrythai.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >
