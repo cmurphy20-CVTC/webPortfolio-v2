@@ -73,7 +73,9 @@ export const ContactMe = () => {
 
         <h3 className="formText">{successText}</h3>
 
-        <button
+        <div className="row">
+          <div className="form-group col-lg mx-auto">
+          <button
           id="outlineBtn"
           type="submit"
           class="btn btn-outline-primary contactBtn"
@@ -81,6 +83,9 @@ export const ContactMe = () => {
         >
           Send
         </button>
+            </div>
+        </div>
+        
       </form>
     </section>
   );
